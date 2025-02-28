@@ -47,8 +47,8 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 verticalArrangement = Arrangement.SpaceBetween
             ) {
                 OutlinedTextField(
-                    value = "",  // Valor vazio, sem uso de estado
-                    onValueChange = { /* Não fazer nada, já que o estado foi removido */ },
+                    value = "",  
+                    onValueChange = { },
                     modifier = Modifier
                         .padding(start = 10.dp, top = 10.dp)
                         .fillMaxWidth(),
@@ -57,8 +57,8 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 )
 
                 OutlinedTextField(
-                    value = "",  // Valor vazio, sem uso de estado
-                    onValueChange = { /* Não fazer nada, já que o estado foi removido */ },
+                    value = "",  
+                    onValueChange = {  },
                     modifier = Modifier
                         .padding(start = 10.dp, top = 10.dp)
                         .fillMaxWidth(),
