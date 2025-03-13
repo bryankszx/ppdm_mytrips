@@ -17,15 +17,6 @@ fun LoginScreen(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier.fillMaxSize()
     ) {
-        Card(
-            modifier = Modifier
-                .align(Alignment.TopEnd)
-                .height(50.dp)
-                .width(150.dp),
-            shape = RoundedCornerShape(bottomStart = 20.dp),
-            colors = CardDefaults.cardColors(containerColor = Color(0xB9230B56))
-        ) {}
-
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -99,6 +90,15 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 }
             }
         }
+
+        Card(
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .height(50.dp)
+                .width(150.dp),
+            shape = RoundedCornerShape(bottomStart = 20.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xB9230B56))
+        ) {}
 
         Card(
             modifier = Modifier
